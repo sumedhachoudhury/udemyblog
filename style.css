@@ -17,8 +17,8 @@ body{
 
 header{
     font-size: 50px;
-   text-align: center;
-    padding-left: 300px;
+   text-align: left;
+   
 }
 
 a{
@@ -61,6 +61,7 @@ h1, h2{
     padding-right: 30px;
     padding-left: 30px;
     float: left;
+    position: relative;
 }
 
 .other-post {
@@ -71,3 +72,9 @@ h1, h2{
     padding-top: 55px;
 }
 
+
+.date {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
