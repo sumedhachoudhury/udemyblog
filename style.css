@@ -18,30 +18,42 @@ body{
 header{
     font-size: 50px;
    text-align: left;
+    padding-left: 120px;
    
 }
 
 a{
     font-size: 15px;
+    
 }
 
 img{
-    padding-left: 20px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+
+    
 }
 
 h1, h2{
     color: #00960b;
-     margin-top: 15px;
+     margin-top: 20px;
     margin-bottom: 10px;
      text-align: left;
      font-size: 20px;
     padding-left: 25px;
 }
+h1{
+    
+}
+
+
 
 .main-text{
     text-align: justify;
     font-size: 18px;
-     padding-left: 20px; 
+     padding-left: 10px;
+    font-family: Raleway;
+    
 }
 .author-text{
     font-size: 120px;
@@ -49,6 +61,8 @@ h1, h2{
 .container {
     width: 1140px;
    margin: 20px auto 0px auto;
+    text-align: justify;
+    
 }
 
 .author-box {
@@ -69,8 +83,9 @@ h1, h2{
     float: left;
     padding-right: 30px;
     padding-left: 30px;
-    padding-top: 55px;
+    padding-top: auto;
 }
+
 
 
 .date {
